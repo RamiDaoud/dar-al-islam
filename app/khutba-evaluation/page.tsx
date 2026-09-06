@@ -62,7 +62,7 @@ export default function KhutbaEvaluation() {
               to promote our Deen to everyone.
             </p>
             <p className="text-sm text-gray-600">
-              The form is anonymous. We don&apos;t collect personal identification information.
+              The form is anonymous. We don't collect personal identification information.
             </p>
           </div>
 

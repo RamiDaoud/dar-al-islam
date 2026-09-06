@@ -37,7 +37,7 @@ export default function About() {
           <div className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p>
-              Dar Al-Islam of Boston, Inc. (DIB) helps Muslims fulfill their obligatory Juma&apos;a 
+              Dar Al-Islam of Boston, Inc. (DIB) helps Muslims fulfill their obligatory Juma'a 
               Prayers ever Friday in Downtown Boston. DIB started organizing the Friday 
               congregation in December 1999. Its sole objective is to provide a convenient 
               prayer place in Downtown Boston to enable Muslims fulfill their obligation.
@@ -80,7 +80,7 @@ export default function About() {
           <div className="bg-brand-blue/10 p-8 rounded-lg">
             <h2 className="text-3xl font-bold mb-6">Support Us</h2>
             <p className="mb-6">
-              The organization has no employees. The organization&apos;s only source of 
+              The organization has no employees. The organization's only source of 
               financial support is voluntary donations from the congregation attendees.
             </p>
             <Button variant="secondary" className="w-40">

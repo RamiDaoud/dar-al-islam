@@ -21,7 +21,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl mb-8 drop-shadow-lg max-w-2xl mx-auto">
-            We&apos;re here to help and answer any questions you might have
+            We're here to help and answer any questions you might have
           </p>
           <Button className="w-40">
             <a href="#contact-form">Get in Touch</a>
