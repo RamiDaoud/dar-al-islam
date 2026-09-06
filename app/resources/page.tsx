@@ -132,7 +132,7 @@ export default function Resources() {
             <h2 className="text-2xl font-bold mb-4">Need More Information?</h2>
             <p className="mb-6">
               If you need help finding specific resources or have questions about any of 
-              these organizations, please don't hesitate to contact us.
+              these organizations, please don&apos;t hesitate to contact us.
             </p>
             <Button variant="secondary" className="w-40">
               <a href="/contact">Contact Us</a>

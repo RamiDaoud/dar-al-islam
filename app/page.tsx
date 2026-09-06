@@ -25,7 +25,7 @@ export default function Home() {
             السَّلامُ عَلَيْكُمْ
           </p>
           <p className="text-xl mb-8 drop-shadow-lg">
-            Assalaamu 'alaikum. Peace be upon you.
+            Assalaamu &apos;alaikum. Peace be upon you.
           </p>
           <div className="flex flex-col items-center gap-4">
             <Button className="w-40">

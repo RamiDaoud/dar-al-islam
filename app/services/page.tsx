@@ -39,7 +39,7 @@ export default function Services() {
             <h2 className="text-3xl font-bold text-brand-green mb-6">Juma Prayer</h2>
             <div className="space-y-4">
               <p className="text-lg">
-                One Juma'a service is held every Friday:
+                One Juma&apos;a service is held every Friday:
               </p>
               <div className="bg-white/50 p-4 rounded-md">
                 <p className="text-lg font-semibold mb-2">Schedule:</p>
