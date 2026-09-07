@@ -1,5 +1,16 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Directions - Dar al Islam Boston",
+  description: "Find us at Cathedral Church of St. Paul, 138 Tremont Street, Boston. Get directions by subway, driving, and parking information for Friday prayers.",
+  openGraph: {
+    title: "Directions to Dar al Islam Boston",
+    description: "Located in the heart of Boston next to Park Street subway station. Easy access by public transportation or car.",
+    url: "/directions",
+  },
+};
 
 export default function Directions() {
   return (
@@ -63,15 +74,10 @@ export default function Directions() {
           </div>
 
           <div className="bg-brand-blue/10 p-6 rounded-lg mb-8">
-            <p className="mb-4">For detailed driving directions, you may wish to use the following links:</p>
-            <div className="flex gap-4">
-              <Button variant="secondary" className="w-40">
-                <a href="https://www.mapquest.com" target="_blank" rel="noopener noreferrer">Mapquest</a>
-              </Button>
-              <Button variant="secondary" className="w-40">
-                <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google Maps</a>
-              </Button>
-            </div>
+            <p className="mb-4">For detailed driving directions, click the button below:</p>
+            <Button variant="secondary">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=138+Tremont+Street,+Boston,+MA+02111" target="_blank" rel="noopener noreferrer">Get Directions on Google Maps</a>
+            </Button>
           </div>
         </section>
 
